@@ -1,0 +1,89 @@
+body {
+    background-color:#ffffff;
+}
+#load{
+    position:absolute ;
+    top:30%;
+    left:17%;
+     right:17%;
+}
+#load1{
+    border:10px outset red;
+    border-radius:50%;
+    width:220px;
+    height:220px;
+    margin:auto;
+    border-left-color:transparent ;
+    border-bottom-color:transparent ;
+    border-right-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load2{
+    border:10px outset yellow;
+    border-radius:50%;
+    width:190px;
+    height:190px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-left-color:transparent ;
+    border-bottom-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load3{
+    border:10px inset #aa1668;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load4{
+    border:10px outset rgb(26, 25, 25);
+    border-radius:50%;
+    width:130px;
+    height:130px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load5{
+    border:10px inset cyan;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load6{
+    border:10px outset orange;
+    border-radius:50%;
+    width:70px;
+    height:70px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+#load7{
+    border:10px outset gold;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    margin:auto;
+    border-right-color:transparent ;
+    border-bottom-color:transparent ;
+    border-left-color:transparent ;
+    animation:spin 3s linear infinite ;
+}
+@keyframes spin{
+    100%{transform:rotateZ(360deg);}
+}
